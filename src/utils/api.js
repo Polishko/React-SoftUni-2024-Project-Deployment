@@ -355,7 +355,7 @@ export const authenticateApi = async (
     const data = await response.json();
 
     if (needUserData) {
-      return { success: true, token: data.accessToken, user: data.user };
+      return { success: true, token: data.token, user: data.user };
     } else {
       return { success: true };
     }
