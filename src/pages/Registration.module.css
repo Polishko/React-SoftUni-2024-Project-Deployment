@@ -1,0 +1,136 @@
+.registrationPage {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  background: linear-gradient(
+      175deg,
+      rgba(192, 212, 237, 0.4) 0%,
+      rgba(28, 35, 35, 0.4) 82%,
+      rgba(225, 221, 210, 0.4) 100%,
+      rgba(229, 225, 214, 0.4) 100%
+    ),
+    url("../register.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+
+.registrationPage nav {
+  width: 95%;
+}
+
+.form {
+  border-radius: 2em;
+  padding: 2rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-self: flex-start;
+  gap: 1.5rem;
+  background: rgba(49, 55, 20, 0.6);
+  color: var(--color-light-2);
+  width: 30%;
+}
+
+.form header {
+  font-size: 2.5em;
+  text-align: center;
+}
+
+.form input {
+  background-color: rgba(1238, 231, 215, 0.4);
+  border: none;
+  outline: none;
+  border-radius: 1em;
+}
+
+.form input::placeholder {
+  color: var(--color-light-3);
+  font-size: 1em;
+  font-weight: 150;
+}
+
+.form label a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.loginInvite {
+  color: var(--color-orange);
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inputContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.inputContainer .icon {
+  position: absolute;
+  left: 1.5em;
+  color: var(--color-light-3);
+  font-size: 2em;
+}
+
+.inputContainer input {
+  padding-left: 2.5em;
+  width: 100%;
+}
+
+.buttonStyle {
+  border: none;
+  border-radius: 1.5em;
+  font-size: 1.7em;
+  outline: none;
+  width: 30%;
+  align-self: center;
+  cursor: pointer;
+  transition: 0.3s;
+  margin-top: 0.5em;
+}
+
+.buttonStyle:hover {
+  box-shadow: 1px 5px 7px 1px rgba(0, 0, 0, 0.2);
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  color: var(--color-light-1);
+}
+
+.bottom label {
+  font-size: 1.2em;
+}
+
+.bottom p {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+}
+
+.eyeIcon {
+  position: absolute;
+  right: 1rem;
+  cursor: pointer;
+  font-size: 1.5em;
+}
+
+.error {
+  color: var(--color-orange);
+  font-weight: bold;
+  margin-top: 0.2em;
+  font-size: 1.2em;
+}

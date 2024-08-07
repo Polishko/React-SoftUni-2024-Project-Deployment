@@ -1,0 +1,784 @@
+{
+  "users": [
+    {
+      "email": "gizmo@gizmo.com",
+      "name": "gizmo",
+      "avatar": "/avatar/cat1.png",
+      "id": 13,
+      "password": "$2a$10$K9tPdKBi3WXF7oCEu6abCeoVOCfKfMSRls98tV44rUmT5Qh.PQ2EW"
+    },
+    {
+      "email": "kaju@kaju.com",
+      "name": "kaju",
+      "avatar": "/avatar/dog1.png",
+      "id": 16,
+      "password": "$2a$10$5VPUvWu8LlZgYEIrabBdZua2ImUx.fyGM1/sH9WbQqhwmhGPr0FLG"
+    },
+    {
+      "email": "badi@badi.com",
+      "name": "badi",
+      "avatar": "/avatar/dog3.png",
+      "id": 17,
+      "password": "$2a$10$WJVEeq8JHNvikUT3QZartem9FBJPk4RgjW0LrkWRuC6pcAxC004BC"
+    },
+    {
+      "email": "toti@toti.com",
+      "name": "toti",
+      "avatar": "/avatar/dog2.png",
+      "id": 18,
+      "password": "$2a$10$JWwDFgP2N17YljjjNMlP9OMT6QXqlFEwibqhCU4M2a248i9OvbqNW"
+    },
+    {
+      "email": "mori@mori.com",
+      "name": "mori",
+      "avatar": "/avatar/dog3.png",
+      "id": 19,
+      "password": "$2a$10$f9NSnNWZnstgaOQkZIneXe0DrlyTBWeGer0/hM6IV9yyZCMWQFC9S"
+    },
+    {
+      "email": "loki@loki.com",
+      "password": "$2a$10$six3cUOYX0AvVvVIbuxfnueCrdbT9aVAzJAI7DG6jAoFeezFVv/yq",
+      "name": "loki",
+      "avatar": "/avatar/dog1.png",
+      "id": 20
+    },
+    {
+      "email": "polen@polen.com",
+      "name": "polen",
+      "avatar": "/avatar/cat3.png",
+      "id": 21,
+      "password": "$2a$10$mOgW6Z1d38HUs7dUWOmb3Oa6zV1JdPE6YYJ5nYf1W9AdBU9ymFx7q"
+    },
+    {
+      "email": "fufu@fufu.com",
+      "name": "fufu",
+      "avatar": "/avatar/cat3.png",
+      "id": 22,
+      "password": "$2a$10$XfWN7WGW3z7AHQuHdULTIe2meUMevxwI7D3FssxCL5QQ8aHiF7oQS"
+    }
+  ],
+  "comments": [
+    {
+      "text": "I hate traveling but the humans cooked chicken in the barbeque and made my day!",
+      "userId": 13,
+      "userName": "gizmo",
+      "hotelId": "Sunanini House",
+      "timestamp": "2024-07-31T10:35:15.236Z",
+      "id": 1,
+      "password": "gizmo"
+    },
+    {
+      "text": "The bluest sea ever!",
+      "userId": 16,
+      "userName": "kaju",
+      "hotelId": "Hayit Buku Bungalovs",
+      "timestamp": "2024-07-16T14:20:37.414Z",
+      "id": 4
+    },
+    {
+      "text": "It's super cozy!",
+      "userId": 16,
+      "userName": "kaju",
+      "hotelId": "Sunanini House",
+      "timestamp": "2024-07-23T19:47:59.671Z",
+      "id": 5,
+      "password": "kaju"
+    },
+    {
+      "text": "Really cozy.",
+      "userId": 17,
+      "userName": "badi",
+      "hotelId": "Garni Hotel Zen",
+      "timestamp": "2024-07-19T14:52:02.066Z",
+      "id": 7
+    },
+    {
+      "text": "Great escape from the city's hot summers.",
+      "userId": 16,
+      "userName": "kaju",
+      "hotelId": "Hija Rila Lakes",
+      "timestamp": "2024-07-26T17:33:11.884Z",
+      "id": 8,
+      "password": "kaju"
+    },
+    {
+      "text": "I met my new friends Loki and Mori here. Played with them all day. ",
+      "userId": 16,
+      "userName": "kaju",
+      "hotelId": "Sorrento Sole Mare",
+      "timestamp": "2024-07-31T10:33:26.336Z",
+      "id": 9,
+      "password": "kaju"
+    },
+    {
+      "text": "I'm trying something.",
+      "userId": 19,
+      "userName": "mori",
+      "hotelId": "Green Village Lake",
+      "timestamp": "2024-07-25T16:58:20.573Z",
+      "id": 10
+    },
+    {
+      "text": "I had a great adventure here with Mori!",
+      "userId": 20,
+      "userName": "loki",
+      "hotelId": "Hija Rila Lakes",
+      "timestamp": "2024-07-25T17:40:37.487Z",
+      "id": 11
+    },
+    {
+      "text": "I liked the fireplace.",
+      "userId": 20,
+      "userName": "loki",
+      "hotelId": "Sunanini House",
+      "timestamp": "2024-07-25T18:19:22.592Z",
+      "id": 12
+    },
+    {
+      "text": "I made lot's of friends here!",
+      "userId": 19,
+      "userName": "mori",
+      "hotelId": "The Wooden Village",
+      "timestamp": "2024-07-26T05:00:59.263Z",
+      "id": 13
+    },
+    {
+      "text": "Visited again and still an amazing place!",
+      "userId": 16,
+      "userName": "kaju",
+      "hotelId": "Sunanini House",
+      "timestamp": "2024-07-31T10:29:41.920Z",
+      "id": 14,
+      "password": "kaju"
+    },
+    {
+      "text": "Forgot to say that there is a biiig garden!",
+      "userId": 16,
+      "userName": "kaju",
+      "hotelId": "Sunanini House",
+      "timestamp": "2024-07-31T10:30:01.236Z",
+      "id": 15,
+      "password": "kaju"
+    },
+    {
+      "text": "I played with other dogs. It was so much fun!",
+      "userId": 17,
+      "userName": "badi",
+      "hotelId": "Green Village Lake",
+      "timestamp": "2024-07-31T09:48:42.201Z",
+      "id": 16
+    },
+    {
+      "text": "I played in the sand with my little human friend Eksi.",
+      "userId": 17,
+      "userName": "badi",
+      "hotelId": "Amalia Center Rooms",
+      "timestamp": "2024-07-31T09:49:46.408Z",
+      "id": 17
+    },
+    {
+      "text": "Fresh air, green views and a kitchen with delicious food.",
+      "userId": 17,
+      "userName": "badi",
+      "hotelId": "The Wooden Village",
+      "timestamp": "2024-07-31T10:00:10.704Z",
+      "id": 18
+    },
+    {
+      "text": "There is a playground for children and their animal friends.",
+      "userId": 17,
+      "userName": "badi",
+      "hotelId": "The Wooden Village",
+      "timestamp": "2024-07-31T10:15:05.924Z",
+      "id": 19,
+      "password": "badi"
+    },
+    {
+      "text": "The beach was like a dream from my childhood memories. Also a little sad.",
+      "userId": 17,
+      "userName": "badi",
+      "hotelId": "Lermontovskiy Hotel",
+      "timestamp": "2024-07-31T10:24:41.225Z",
+      "id": 20
+    },
+    {
+      "text": "This must have been the most beautiful beach I've ever seen!",
+      "userId": 13,
+      "userName": "gizmo",
+      "hotelId": "Lermontovskiy Hotel",
+      "timestamp": "2024-07-31T10:28:18.956Z",
+      "id": 21
+    },
+    {
+      "text": "Delicious breakfast near the seaside. They also serve fried chips and cold beer!",
+      "userId": 16,
+      "userName": "kaju",
+      "hotelId": "Datca Lake House Camping",
+      "timestamp": "2024-07-31T10:31:07.645Z",
+      "id": 22
+    },
+    {
+      "text": "A great location in close proximity to many city attractions.",
+      "userId": 16,
+      "userName": "kaju",
+      "hotelId": "Garni Hotel Zen",
+      "timestamp": "2024-07-31T10:32:28.929Z",
+      "id": 23
+    },
+    {
+      "text": "Perfect for a romantic getaway.",
+      "userId": 18,
+      "userName": "toti",
+      "hotelId": "Lermontovskiy Hotel",
+      "timestamp": "2024-07-31T11:16:12.283Z",
+      "id": 24
+    },
+    {
+      "text": "There is a pool and you can play around it.",
+      "userId": 18,
+      "userName": "toti",
+      "hotelId": "Sorrento Sole Mare",
+      "timestamp": "2024-08-01T09:20:09.465Z",
+      "id": 26
+    },
+    {
+      "text": "So much fun running on the beach and on the grass and playing.",
+      "userId": 18,
+      "userName": "toti",
+      "hotelId": "Datca Lake House Camping",
+      "timestamp": "2024-08-01T11:08:55.948Z",
+      "id": 27
+    },
+    {
+      "text": "It was super cool! I really liked it! yes!",
+      "userId": 18,
+      "userName": "toti",
+      "hotelId": "Datca Lake House Camping",
+      "timestamp": "2024-08-01T11:49:03.210Z",
+      "id": 28
+    },
+    {
+      "text": "An interesting place, surrounded by nature and near a small beautiful beach.",
+      "userId": 18,
+      "userName": "toti",
+      "hotelId": "Hayit Buku Bungalovs",
+      "timestamp": "2024-08-01T12:43:55.853Z",
+      "id": 29
+    },
+    {
+      "text": "Cool place.",
+      "userId": 13,
+      "userName": "gizmo",
+      "hotelId": "Datca Lake House Camping",
+      "timestamp": "2024-08-01T19:08:51.588Z",
+      "id": 30
+    },
+    {
+      "text": "The road took so long but it was worth it!",
+      "userId": 21,
+      "userName": "polen",
+      "hotelId": "Hayit Buku Bungalovs",
+      "timestamp": "2024-08-02T13:48:14.023Z",
+      "id": 31
+    },
+    {
+      "text": "It was nice but it was too hot around the beach, couldn't find a shadow.",
+      "userId": 22,
+      "userName": "fufu",
+      "hotelId": "Amalia Center Rooms",
+      "timestamp": "2024-08-06T13:13:01.744Z",
+      "id": 32
+    },
+    {
+      "text": "A very calm and relaxing beach.",
+      "userId": 13,
+      "userName": "gizmo",
+      "hotelId": "Sorrento Sole Mare",
+      "timestamp": "2024-08-07T08:10:15.182Z",
+      "id": 33
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1",
+      "author": "user1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2",
+      "author": "user2"
+    }
+  ],
+  "hotels": [
+    {
+      "id": "Sunanini House",
+      "hotelName": "Sunanini House",
+      "country": "Bulgaria",
+      "countryCode": "🇧🇬",
+      "city": "Sapareva Banya",
+      "type": [
+        "mountain",
+        "nature"
+      ],
+      "position": {
+        "lat": 42.285136416470166,
+        "lng": 23.24898059723802
+      },
+      "img": "sunanini-main.jpg",
+      "web": "https://susanini.wordpress.com/",
+      "detail": "A cozy little house in Saparyeva Banya, situated at the foot of the mountain. Your furry friends will enjoy the big garden.",
+      "keywords": [
+        "sunanini",
+        "bulgaria",
+        "sapareva",
+        "saparyeva",
+        "mountain",
+        "nature",
+        "house",
+        "garden",
+        "barbeque",
+        "wifi",
+        "parking",
+        "airconditioner"
+      ],
+      "facilities": [
+        "wifi",
+        "parking",
+        "airconditioner"
+      ]
+    },
+    {
+      "id": "Green Village Lake",
+      "hotelName": "Green Village Lake",
+      "country": "Bulgaria",
+      "countryCode": "🇧🇬",
+      "city": "Hrabarsko",
+      "type": [
+        "nature",
+        "seaside"
+      ],
+      "position": {
+        "lat": 42.817562946488636,
+        "lng": 23.091720435881278
+      },
+      "img": "./green-village-main.jpg",
+      "web": "https://hrabarsko-lake.com/",
+      "detail": "Fish and camp at this lakeside facility, only 30km away from Sofia. Cozy bungalows, a restaurant, and a pool available.",
+      "keywords": [
+        "green village",
+        "bulgaria",
+        "hrabarsko",
+        "lake",
+        "nature",
+        "bungalov",
+        "camping",
+        "pool",
+        "wifi",
+        "parking",
+        "airconditioner"
+      ],
+      "facilities": [
+        "wifi",
+        "parking",
+        "airconditioner",
+        "pool"
+      ]
+    },
+    {
+      "id": "Hija Rila Lakes",
+      "hotelName": "Hija Rila Lakes",
+      "country": "Bulgaria",
+      "countryCode": "🇧🇬",
+      "city": "Borovets",
+      "type": [
+        "nature",
+        "mountain"
+      ],
+      "position": {
+        "lat": 42.219874962786704,
+        "lng": 23.32160101072616
+      },
+      "img": "./hija-rila-lakes-main.jpg",
+      "web": "https://rilskiezera.bg/",
+      "detail": "Go on a hiking adventure with your animal friends and enjoy the amazing Rila lakes.",
+      "keywords": [
+        "rila lakes",
+        "rila",
+        "lake",
+        "lakes",
+        "mountain",
+        "borovets",
+        "bulgaria",
+        "hiking",
+        "nature",
+        "wifi"
+      ],
+      "facilities": [
+        "wifi"
+      ]
+    },
+    {
+      "id": "Sorrento Sole Mare",
+      "hotelName": "Sorrento Sole Mare",
+      "country": "Bulgaria",
+      "countryCode": "🇧🇬",
+      "city": "Burgas",
+      "type": [
+        "seaside"
+      ],
+      "position": {
+        "lat": 42.76414192026019,
+        "lng": 27.742814370268487
+      },
+      "img": "./sorrento-sole-mare-main.jpeg",
+      "web": "https://www.booking.com/Share-3Oxlf7t",
+      "detail": "A cozy studio room in the Sorrento Sole Mare complex near Sveti Vlas beach.",
+      "keywords": [
+        "sorrento",
+        "burgas",
+        "sea",
+        "beach",
+        "studio",
+        "room",
+        "bulgaria",
+        "pool",
+        "city",
+        "wifi",
+        "parking",
+        "airconditioner"
+      ],
+      "facilities": [
+        "wifi",
+        "parking",
+        "airconditioner",
+        "pool"
+      ]
+    },
+    {
+      "id": "Datca Lake House Camping",
+      "hotelName": "Datca Lake House Camping",
+      "country": "Turkey",
+      "countryCode": "🇹🇷",
+      "city": "Datca",
+      "type": [
+        "seaside"
+      ],
+      "position": {
+        "lat": 36.72005396963961,
+        "lng": 27.687009625838925
+      },
+      "img": "./datca-lake-house-main.jpeg",
+      "web": "https://maps.app.goo.gl/X5NDz6qRjVkZB6pcA",
+      "detail": "Camp with your best furry friend near this amazing beach with the bluest water in the world.",
+      "keywords": [
+        "camping",
+        "sea",
+        "beach",
+        "nature",
+        "datca",
+        "turkey"
+      ],
+      "facilities": []
+    },
+    {
+      "id": "Hayit Buku Bungalovs",
+      "hotelName": "Hayit Buku Bungalovs",
+      "country": "Turkey",
+      "countryCode": "🇹🇷",
+      "city": "Datca",
+      "type": [
+        "seaside",
+        "nature"
+      ],
+      "position": {
+        "lat": 36.68589557246077,
+        "lng": 27.57105908351027
+      },
+      "img": "./hayit-bungalows-main.jpeg",
+      "web": "https://maps.app.goo.gl/aY78biaVZ5cFHofp7",
+      "detail": "An amazing complex of bungalow houses near the seaside. Enjoy meals prepared with self-grown produce and cool yoga and hiking events.",
+      "keywords": [
+        "sea",
+        "beach",
+        "bungalov",
+        "nature",
+        "datca",
+        "turkey",
+        "hiking",
+        "yoga",
+        "wifi",
+        "airconditioner"
+      ],
+      "facilities": [
+        "wifi",
+        "airconditioner"
+      ]
+    },
+    {
+      "id": "Garni Hotel Zen",
+      "hotelName": "Garni Hotel Zen",
+      "country": "Serbia",
+      "countryCode": "🇷🇸",
+      "city": "Niš",
+      "type": [
+        "city"
+      ],
+      "position": {
+        "lat": 43.33947206096271,
+        "lng": 21.92352216844934
+      },
+      "img": "./garni-zen-main.jpeg",
+      "web": "https://hotelzen.rs/en/home-13/",
+      "detail": "Stay at the heart of Nis in this pet-friendly relaxed hotel.",
+      "keywords": [
+        "city",
+        "pool",
+        "nis",
+        "serbia",
+        "room",
+        "wifi",
+        "airconditioner",
+        "parking"
+      ],
+      "facilities": [
+        "wifi",
+        "airconditioner",
+        "pool",
+        "parking"
+      ]
+    },
+    {
+      "id": "Amalia Center Rooms",
+      "hotelName": "Amalia Center Rooms",
+      "country": "Greece",
+      "countryCode": "🇬🇷",
+      "city": "Nea Vrasna",
+      "type": [
+        "seaside"
+      ],
+      "position": {
+        "lat": 40.71174651744706,
+        "lng": 23.70179528233691
+      },
+      "img": "./amalia-main.jpg",
+      "web": "https://center.amaliasrooms.gr",
+      "detail": "Pamper yourself and your furry friend in this seaside hotel with breathtaking views.",
+      "keywords": [
+        "seaside",
+        "sea",
+        "nea vrasna",
+        "greece",
+        "room",
+        "wifi",
+        "airconditioner",
+        "parking"
+      ],
+      "facilities": [
+        "wifi",
+        "airconditioner",
+        "parking"
+      ]
+    },
+    {
+      "id": "The Wooden Village",
+      "hotelName": "The Wooden Village",
+      "country": "Greece",
+      "countryCode": "🇬🇷",
+      "city": "Agkistro",
+      "type": [
+        "nature",
+        "mountain"
+      ],
+      "position": {
+        "lat": 41.36992542114511,
+        "lng": 23.433435427887517
+      },
+      "img": "./wooden-village-main.jpg",
+      "web": "https://maps.app.goo.gl/wSoRtvXDkQNRN3b4A",
+      "detail": "Situated near the border of Bulgaria and Greece, this boutique hotel is perfect for a little roadside rest in the mountains.",
+      "keywords": [
+        "mountain",
+        "nature",
+        "greece",
+        "border",
+        "bungalow",
+        "wifi",
+        "airconditioner",
+        "parking",
+        "pool"
+      ],
+      "facilities": [
+        "wifi",
+        "airconditioner",
+        "parking",
+        "pool"
+      ]
+    },
+    {
+      "id": "Lermontovskiy Hotel",
+      "hotelName": "Lermontovskiy Hotel",
+      "country": "Ukraine",
+      "countryCode": "🇺🇦",
+      "city": "Odessa",
+      "type": [
+        "seaside"
+      ],
+      "position": {
+        "lat": 46.47200334286483,
+        "lng": 30.7550886666702
+      },
+      "img": "odessa.jpg",
+      "web": "https://maps.app.goo.gl/x5paoa5hcotc69qL7",
+      "detail": "A small boutique hotel near the romantic beaches of Odessa. Watch the mesmerizing views of the sun sinking into the endless deep blue waters of the Black Sea.",
+      "keywords": [
+        "lermotovskiy",
+        "ukraine",
+        "odessa",
+        "beach",
+        "black sea",
+        "blacksea",
+        "wifi",
+        "parking",
+        "airconditioner"
+      ],
+      "facilities": [
+        "wifi",
+        "parking",
+        "airconditioner"
+      ]
+    },
+    {
+      "id": "Apartmentos Calypso",
+      "hotelName": "Apartmentos Calypso",
+      "country": "Spain",
+      "countryCode": "🇪🇸",
+      "city": "Punta Umbria",
+      "type": [
+        "seaside"
+      ],
+      "position": {
+        "lat": 37.186693867615936,
+        "lng": -6.956131246275325
+      },
+      "img": "./punta-umbria.jpg",
+      "web": "https://www.booking.com/Share-hLSROF",
+      "detail": "A low-key beach apartment for your big escapes. Enjoy the silent beach and the relaxing sea breeze together with your fur friend and get away from your daily concerns.",
+      "keywords": [
+        "calypso",
+        "spain",
+        "punta umbria",
+        "sea",
+        "beach",
+        "apartment",
+        "room",
+        "low key",
+        "pool",
+        "wifi",
+        "airconditioner"
+      ],
+      "facilities": [
+        "wifi",
+        "airconditioner"
+      ]
+    }
+  ],
+  "ratings": [
+    {
+      "userId": 18,
+      "hotelId": "Green Village Lake",
+      "rating": 3,
+      "id": 1
+    },
+    {
+      "userId": 18,
+      "hotelId": "Datca Lake House Camping",
+      "rating": 5,
+      "id": 2
+    },
+    {
+      "userId": 13,
+      "hotelId": "Green Village Lake",
+      "rating": 4,
+      "id": 3
+    },
+    {
+      "userId": 13,
+      "hotelId": "Datca Lake House Camping",
+      "rating": 4,
+      "id": 4
+    },
+    {
+      "userId": 13,
+      "hotelId": "Sunanini House",
+      "rating": 4,
+      "id": 5
+    },
+    {
+      "userId": 17,
+      "hotelId": "Sunanini House",
+      "rating": 5,
+      "id": 6
+    },
+    {
+      "userId": 17,
+      "hotelId": "Hija Rila Lakes",
+      "rating": 3,
+      "id": 7
+    },
+    {
+      "userId": 21,
+      "hotelId": "Hayit Buku Bungalovs",
+      "rating": 4,
+      "id": 8
+    },
+    {
+      "userId": 19,
+      "hotelId": "Hija Rila Lakes",
+      "rating": 5,
+      "id": 9
+    },
+    {
+      "userId": 18,
+      "hotelId": "Hayit Buku Bungalovs",
+      "rating": 5,
+      "id": 10
+    },
+    {
+      "userId": 21,
+      "hotelId": "Amalia Center Rooms",
+      "rating": 3,
+      "id": 11
+    },
+    {
+      "userId": 17,
+      "hotelId": "The Wooden Village",
+      "rating": 5,
+      "id": 12
+    },
+    {
+      "userId": 22,
+      "hotelId": "Green Village Lake",
+      "rating": 5,
+      "id": 13
+    },
+    {
+      "userId": 22,
+      "hotelId": "Datca Lake House Camping",
+      "rating": 5,
+      "id": 14
+    },
+    {
+      "userId": 22,
+      "hotelId": "Amalia Center Rooms",
+      "rating": 3,
+      "id": 15
+    },
+    {
+      "userId": 13,
+      "hotelId": "Sorrento Sole Mare",
+      "rating": 4,
+      "id": 16
+    }
+  ]
+}

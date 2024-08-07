@@ -1,0 +1,36 @@
+.facilities {
+  display: flex;
+  gap: 0.5em;
+}
+
+.iconContainer {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.icon {
+  font-size: 1em;
+}
+
+.tooltipText {
+  visibility: hidden;
+  background-color: white;
+  color: black;
+  border: 0.2px solid var(--color-comment-light-2);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  border-radius: 6px;
+  padding: 0.3em 0.5em;
+  position: absolute;
+  z-index: 1;
+  top: 125%;
+  margin-left: -2em;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.iconContainer:hover .tooltipText {
+  visibility: visible;
+  opacity: 1;
+}

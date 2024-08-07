@@ -1,0 +1,17 @@
+.details {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex: 1;
+  justify-self: center;
+  border: none;
+  border-radius: 0.7rem;
+  font-size: 180%;
+  transition: all 0.3s;
+}
+
+.details > * {
+  background-color: var(--color-light-2);
+  border-radius: 1em;
+  margin: 1em;
+}
